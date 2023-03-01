@@ -9,7 +9,7 @@
     <script src="./bootstrap/js/bootstrap.min.js"></script>
   </head>
   <body>
-    
+
     <section class="about-me">
       <h3>About me</h3>
       <p class="aboutme_text">
@@ -57,7 +57,31 @@
     </section>
 
     <section class="contact-form">
+      <div class="form-text">
+        <p>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
+      </div>
+      <div class="form-container">
+        <form action="https://formspree.io/f/xbjeoyol" method="post">
+          <label for="fullname" hidden>Fullname</label>
+          <input id="fullname" type="text" placeholder="Full name" name="fullname" maxlength="30" required>
+          <label for="email" hidden>Email</label>
+          <input id="email" type="email" placeholder="Email Address" name="email" required>
+          <label for="message" hidden>Message</label>
+          <textarea id="message" name="message" placeholder="Enter text here" maxlength="500" required></textarea>
+          <button class="form_btn">Get in touch</button>
+        </form>
+      </div>
 
+      <footer>
+        <hr>
+        <ul class="social_links">
+            <li><a href=""><img src="./assets/images/twitter.svg" alt="twitter icon"></a></li>
+            <li><a href=""><img src="./assets/images/linkedin-icon.svg" alt="linked icon"></a></li>
+            <li><a href=""><img src="./assets/images/medium.svg" alt="medium icon"></a></li>
+            <li><a href=""><img src="./assets/images/github.svg" alt="github icon"></a></li>
+            <li><a href=""><img src="./assets/images/angellist.svg" alt="angellist icon"></a></li>
+        </ul>
+      </footer>
     </section>
   </body>
 </html>
