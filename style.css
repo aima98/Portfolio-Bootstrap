@@ -155,3 +155,82 @@ textarea {
   width: 684px;
   height: 114px;
 }
+/* Ani7 */
+.containers {
+  background-image: url("assets/images/Header-llustration-desktop@2x.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 97.17vw 103.36vh;
+}
+
+.nav-link {
+  color: #172b4d;
+}
+
+.h-main-header {
+  font-family: sans-serif, "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: 0.37px;
+  color: #172b4d;
+}
+
+.header-sec {
+  padding-top: 25.2vh;
+  padding-left: 18vw;
+  padding-right: 18vw;
+  padding-bottom: 36.5vh;
+}
+
+.arrow-down {
+  margin-top: 84px;
+}
+
+.green {
+  color: #36b37f;
+}
+
+/* for the works */
+.card-container {
+  padding-left: 6vw;
+  margin-left: 10vw;
+  margin-right: initial;
+  margin-top: 52px;
+}
+
+.card-image {
+  max-height: 252px;
+}
+
+.fonts {
+  font-family: sans-serif, "Poppins";
+  font-style: normal;
+}
+
+.works-h2 {
+  font-family: sans-serif, "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+}
+
+.w-card-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #172b4d;
+}
+
+.card-tech {
+  font-family: sans-serif, "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #172b4d;
+  background: #ebf0ee !important;
+}
