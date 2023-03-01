@@ -112,28 +112,6 @@ section .about-me {
   border-radius: 10px;
 }
 
-/* .list-group-horizontal {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0;
-    gap: 8px;
-    width: 271px;
-    height: 40px;
-  }
-
-  .list-group-horizontal-item {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 12px;
-    width: 89px;
-    height: 40px;
-    background: #fff;
-    border-radius: 8px;
-  } */
-
-
 div .list-group-horizontal {
   display: flex;
   flex-direction: row;
@@ -172,7 +150,7 @@ div .list-group-horizontal1 li {
   flex-direction: row;
   align-items: center;
   padding: 12px;
-  width: 84px;
+  width: 103px;
   height: 40px;
   background: #fff;
   border-radius: 8px;
@@ -186,16 +164,15 @@ div .list-group-horizontal2 {
   gap: 8px;
   width: 250px;
   height: 139px;
-  margin-left: 34px;
+  margin-left: 62px;
 }
 
 div .list-group-horizontal2 li {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0;
-  gap: 8px;
-  width: 77px;
+  padding: 12px;
+  width: 72px;
   height: 40px;
   background: #fff;
   border-radius: 8px;
@@ -323,23 +300,6 @@ footer {
   gap: 15px;
   align-items: flex-end;
   list-style-type: none;
-  margin-top: 394px;
+  margin-top: 578px;
   margin-left: 382px;
-}
-
-div .col-sm-12 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0;
-  position: absolute;
-  width: 200px;
-  height: 40px;
-  list-style-type: none;
-}
-
-div .col-sm-12 img {
-  width: 24px;
-  height: 24px;
-  cursor: pointer;
 }
