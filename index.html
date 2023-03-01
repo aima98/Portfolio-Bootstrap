@@ -285,62 +285,75 @@
       <!-- End of modal -->
     </section>
 
-    <section class="about">
-      <section class="about-me">
-        <h3>About me</h3>
-        <p class="about-me-text">
+    <section class="about text-center">
+      <section class="text-center header-sec1">
+        <h3 class="h-header">About Me</h3>
+        <p class="text-sec fonts">
           I can help you build a product , feature or website. Look through some
-          of my work and experience! If you like what you see and have a project
-          you need coded,<br />
-          don’t hestiate to contact me.
+          of my work and<br /> experience! If you like what you see and have a project
+          you need coded,<br />don’t hestiate to contact me.
         </p>
-        <div class="getresume">
-          <button type="button" class="btn btn-success">Get My Resume</button>
-        </div>
-      </section>
-
-      <section class="about-cards">
-        <div class="row">
+      </section> 
+      <section class="card text-center">
+        <div class="row text-center card-container1">
+          <!-- card 1 -->
           <div class="col-sm-4">
-            <img src="./assets/images/Icons.png" alt="" />
-            <h3>Languages</h3>
-            <ul class="list-group-horizontal">
-              <li class="list-group-horizontal-item">JavaScript</li>
-              <li class="list-group-horizontal-item">Ruby</li>
-              <li class="list-group-horizontal-item">Html</li>
-              <li class="list-group-horizontal-item">CSS</li>
-            </ul>
+            <div class="card text-center work-card1">
+              <img src="./assets/images/Icons.png" alt="" />
+              <h3 class="w-card-title">Languages</h3>
+              <div class="card-body">
+                <span class="badge bg-secondary card-cont">Javascript</span>
+                <span class="badge bg-secondary card-cont">Ruby</span>
+                <span class="badge bg-secondary card-cont">Html</span>
+                <span class="badge bg-secondary card-cont">CSS</span>
+              </div>
+            </div>
           </div>
+          <!-- card 2 -->
           <div class="col-sm-4">
-            <img src="./assets/images/Icons (1).png" alt="" />
-            <h3>Frameworks</h3>
-            <ul class="list-group-horizontal1">
-              <li class="list-group-horizontal-item">Bootstrap</li>
-              <li class="list-group-horizontal-item">Ruby on Rails</li>
-              <li class="list-group-horizontal-item">RSpec</li>
-            </ul>
-            <ul class="list-group-horizontal3">
-              <li class="list-group-horizontal-item">Capybara</li>
-              <li class="list-group-horizontal-item">Selenium</li>
-            </ul>
+            <div class="card text-center work-card1">
+              <img src="./assets/images/Icons (1).png" alt="" />
+              <h3 class="w-card-title">Framewroks</h3>
+              <div class="card-body">
+                <span class="badge bg-secondary card-cont">Bootstrap</span>
+                <span class="badge bg-secondary card-cont">Ruby on Rails</span>
+                <span class="badge bg-secondary card-cont">RSpec</span>
+              </div>  
+              <div class="card-body">  
+                <span class="badge bg-secondary card-cont">Capybara</span>
+                <span class="badge bg-secondary card-cont">Selenium</span>
+              </div>
+            </div>
           </div>
+          <!-- card 3 -->
           <div class="col-sm-4">
-            <img src="./assets/images/Icons (2).png" alt="" />
-            <h3>Skills</h3>
-            <ul class="list-group-horizontal2">
-              <li class="list-group-horizontal-item">Codekit</li>
-              <li class="list-group-horizontal-item">Github</li>
-              <li class="list-group-horizontal-item">Codepen</li>
-              <li class="list-group-horizontal-item">Gitlab</li>
-            </ul>
-            <ul class="list-group-horizontal4">
-              <li class="list-group-horizontal-item">Terminal</li>
-            </ul>
+            <div class="card text-center work-card1">
+              <img src="./assets/images/Icons (2).png" alt="" />
+              <h3 class="w-card-title">Skills</h3>
+              <div class="card-body">
+                <span class="badge bg-secondary card-cont">CodeKit</span>
+                <span class="badge bg-secondary card-cont">Github</span>
+                <span class="badge bg-secondary card-cont">Codepen</span>
+                <span class="badge bg-secondary card-cont">Gitlab</span>
+              </div>  
+              <div class="card-body">  
+                <span class="badge bg-secondary card-cont">Terminal</span>
+              </div>
+            </div>
           </div>
-        </div>
-      </section>
-    </section>
-
+          <div class="card-body w-get-resume">
+            <button
+                type="button"
+                class="btn btn-success w-get-resume"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
+                Get My Resume
+              </button>
+          </div>
+      </section> 
+    </section> 
+    <!-- contact form-->
     <section class="contact-form">
       <div class="row">
         <div class="col-sm-4">
@@ -357,40 +370,88 @@
               <form class="form-inline" action="/action_page.php"></form>
               <div class="form-group">
                 <label for="firstname" hidden>First Name</label>
-                <input class="fname" id="firstname" type="text" placeholder="First Name" name="firstname" maxlength="30" required>
+                <input
+                  id="firstname"
+                  class="firstname"
+                  type="text"
+                  placeholder="First Name"
+                  name="firstname"
+                  maxlength="30"
+                  required
+                />
                 <label for="lastname" hidden>Last Name</label>
-                <input class="lname" id="lastname" type="text" placeholder="Last Name" name="lastname" maxlength="30" required>
+                <input
+                  id="lastname"
+                  class="lastname"
+                  type="text"
+                  placeholder="Last Name"
+                  name="lastname"
+                  maxlength="30"
+                  required
+                />
               </div>
-  
+
               <div class="form-group">
                 <label for="email" hidden>Email</label>
-                <input class="email" id="email" type="email" placeholder="Email Address" name="email" required>
+                <input
+                  id="email"
+                  class="email"
+                  type="email"
+                  placeholder="Email Address"
+                  name="email"
+                  required
+                />
               </div>
             </form>
-  
+
             <div class="form-group">
               <label for="message" hidden>Message</label>
-              <textarea id="message" name="message" placeholder="Typing something" maxlength="500" required></textarea>
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Enter text here"
+                maxlength="500"
+                required
+              ></textarea>
             </div>
-  
+
             <button type="submit" class="btn btn-success">Get in touch</button>
           </div>
         </div>
       </div>
-
-      <footer>
-        <footer>
-          <div class="col-sm-12">
-            <ul class="list-group-horizontal5">
-              <li class="list-group-horizontal-item1"><img src="./assets/images/twitter.svg" alt="twitter icon"></li>
-              <li class="list-group-horizontal-item1"><img src="./assets/images/linkedin-icon.svg" alt="linked icon"></li>
-              <li class="list-group-horizontal-item1"><img src="./assets/images/medium.svg" alt="medium icon"></li>
-              <li class="list-group-horizontal-item1"><img src="./assets/images/github.svg" alt="github icon"></li>
-              <li class="list-group-horizontal-item1"><img src="./assets/images/angellist.svg" alt="angellist icon"></li>
-            </ul>
-          </div>
-        </footer>
-      </footer>
     </section>
-  </body>
+
+    <!-- socials footer -->
+    <footer>
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link" href="#"
+          ><img src="./assets/images/twitter.svg" alt="twitter icon"
+        /></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"
+          ><img src="./assets/images/linkedin-icon.svg" alt="linked icon"
+        /></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"
+          ><img src="./assets/images/medium.svg" alt="medium icon"
+        /></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"
+          ><img src="./assets/images/github.svg" alt="github icon"
+        /></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"
+          ><img src="./assets/images/angellist.svg" alt="angellist icon"
+        /></a>
+      </li>
+    </ul>
+  </footer>
+</body>
 </html>
+
+   
