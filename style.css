@@ -13,9 +13,9 @@
   top: 2385px;
 }
 
-.about_me {
-  background: url("./assets/images/illustration\ about\ me\ desktop.svg') no-repeat 10px");
-  background-position: top -30px right, bottom left;
+.about .about_me {
+  background: url(".assets/images/illustration\ about\ me\ desktop.svg");
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,9 +27,13 @@
   padding-block: 1em;
 }
 
+.getresume {
+  width: 159px;
+  height: 48px;
+  margin-left: 376px;
+}
+
 .about-me h3 {
-  margin-block-start: 20px;
-  margin-inline-start: 1em;
   width: 447px;
   height: 48px;
   font-family: "Inter", sans-serif;
@@ -41,9 +45,12 @@
   align-items: center;
   text-align: center;
   color: #172b4d;
+  margin-left: 360px;
+  margin-bottom: 16px;
+  margin-top: -75px;
 }
 
-.about-me-text {
+.about-me p {
   width: 920px;
   height: 96px;
   font-family: "Inter", sans-serif;
@@ -87,6 +94,14 @@
   color: #36b37e;
 }
 
+.col-sm-4 {
+  width: 369px;
+  height: 352px;
+  background-color: #c8dcd5;
+  margin-left: 15px;
+  border-radius: 10px;
+}
+
 .contact-form {
   display: flex;
   flex-direction: row;
@@ -98,11 +113,12 @@
   height: 490px;
   left: 135px;
   top: 3139px;
+  margin-top: -121px;
 }
 
 .contact-form p {
-  width: 463px;
-  height: 256px;
+  width: 484px;
+  height: 438px;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -112,6 +128,8 @@
   align-items: center;
   color: #172b4d;
   margin-left: -56px;
+  background-color: #fff;
+  margin-top: -89px;
 }
 
 .form-container {
@@ -175,7 +193,7 @@ textarea {
 }
 
 button {
-  width: 129px;
+  width: 150px;
   height: 48px;
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -198,18 +216,54 @@ button :active {
 }
 
 footer {
+  display: flex;
   position: absolute;
   width: 1440px;
   height: 72px;
   left: 0;
   margin-block-start: 2.5em;
-  display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 15px;
   padding-block-end: 4em;
+  margin-top: -2px;
+  gap: 20px;
+  align-items: flex-end;
+  list-style-type: none;
 }
 
-.navbar > .container-fluid {
-  margin-top: 10px;
+.list-group-horizontal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  gap: 8px;
+  width: 271px;
+  height: 40px;
+}
+
+.list-group-horizontal-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  width: 89px;
+  height: 40px;
+  background: #fff;
+  border-radius: 8px;
+}
+
+div .col-sm-12 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  position: absolute;
+  width: 200px;
+  height: 40px;
+  list-style-type: none;
+}
+
+div .col-sm-12 img {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
 }
