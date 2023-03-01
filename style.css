@@ -70,7 +70,7 @@ section .about-me {
   gap: 24px;
   height: 350px;
   margin-right: -188px;
-margin-top: 195px;
+  margin-top: 195px;
 }
 
 .about-cards h3 {
@@ -215,6 +215,29 @@ div .list-group-horizontal4 {
 }
 
 div .list-group-horizontal4 li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  width: 77px;
+  height: 40px;
+  background: #fff;
+  border-radius: 8px;
+}
+
+div .list-group-horizontal5 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  gap: 8px;
+  width: 77px;
+  height: 40px;
+  margin-top: -119px;
+  margin-left: -350px;
+}
+
+div .list-group-horizontal5 li {
   display: flex;
   flex-direction: row;
   align-items: center;
