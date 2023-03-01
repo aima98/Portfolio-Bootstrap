@@ -30,7 +30,7 @@
 .getresume {
   width: 159px;
   height: 48px;
-  margin-left: 376px;
+  margin-left: 580px;
 }
 
 .about-me h3 {
@@ -45,7 +45,7 @@
   align-items: center;
   text-align: center;
   color: #172b4d;
-  margin-left: 360px;
+  margin-left: 553px;
   margin-bottom: 16px;
   margin-top: -75px;
 }
@@ -60,6 +60,7 @@
   line-height: 32px;
   text-align: center;
   color: #42526e;
+  margin-left: 200px;
 }
 
 .btn-success {
@@ -68,6 +69,16 @@
   padding: 0.75em;
   border-radius: 4px;
   background-color: #36b37f;
+}
+
+.about-cards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 8px;
+  gap: 24px;
+  height: 350px;
+  margin-right: -200px;
 }
 
 .about-cards h3 {
@@ -94,6 +105,11 @@
   color: #36b37e;
 }
 
+.about-cards img {
+  width: 334px;
+  height: 135px;
+}
+
 .col-sm-4 {
   width: 369px;
   height: 352px;
@@ -111,7 +127,7 @@
   position: absolute;
   width: 1171px;
   height: 490px;
-  left: 135px;
+  left: 242px;
   top: 3139px;
   margin-top: -121px;
 }
