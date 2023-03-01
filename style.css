@@ -8,13 +8,14 @@
   gap: 48px;
   position: absolute;
   height: 808px;
-  left: 182px;
+  left: 259px;
   margin-top: 247px;
 }
 
 section .about-me {
   background-image: url("assets/images/illustration\ about\ me\ desktop.png");
   background-repeat: no-repeat;
+  position: absolute;
 }
 
 .getresume {
@@ -68,7 +69,8 @@ section .about-me {
   padding: 4px 8px;
   gap: 24px;
   height: 350px;
-  margin-right: -200px;
+  margin-right: -188px;
+margin-top: 195px;
 }
 
 .about-cards h3 {
