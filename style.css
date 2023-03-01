@@ -100,7 +100,7 @@
   top: 3139px;
 }
 
-.form-text {
+.contact-form p {
   width: 463px;
   height: 256px;
   font-family: "Inter", sans-serif;
@@ -111,6 +111,7 @@
   display: flex;
   align-items: center;
   color: #172b4d;
+  margin-left: -56px;
 }
 
 .form-container {
@@ -118,12 +119,28 @@
   gap: 24px;
   width: 684px;
   height: 330px;
+  margin-left: 62px;
 }
 
 form {
   display: flex;
   flex-direction: column;
   gap: 15px;
+}
+
+.email {
+  width: 660px;
+  margin-top: 10px;
+}
+
+.fname {
+  width: 328px;
+  margin-top: 10px;
+}
+
+.lname {
+  width: 328px;
+  margin-top: 10px;
 }
 
 input,
@@ -152,6 +169,47 @@ textarea {
   background: #fff;
   border: 1px solid #60c095;
   border-radius: 4px;
-  width: 684px;
+  width: 660px;
   height: 114px;
+  margin-top: 10px;
+}
+
+button {
+  width: 129px;
+  height: 48px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  background: #36b37f;
+  border-radius: 4px;
+}
+
+button :hover {
+  filter: drop-shadow(0 2px 2px var(--maastricht-blue));
+  background-color: var(--bright-gray);
+  color: var(--maastricht-blue);
+}
+
+button :active {
+  background-color: var(--spanish-viridian);
+  filter: none;
+}
+
+footer {
+  position: absolute;
+  width: 1440px;
+  height: 72px;
+  left: 0;
+  margin-block-start: 2.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding-block-end: 4em;
+}
+
+.navbar > .container-fluid {
+  margin-top: 10px;
 }
