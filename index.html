@@ -60,31 +60,38 @@
     </section>
 
     <section class="contact-form">
-      <div class="form-text">
-        <p>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
-      </div>
-
-      <div class="form-container">
-
-        <form action="/action_page.php">
-          <form class="form-inline" action="/action_page.php"></form>
-            <div class="form-group">
-              <label for="fullname" hidden>Fullname</label>
-              <input id="fullname" type="text" placeholder="Full name" name="fullname" maxlength="30" required>
-            </div>
-
-            <div class="form-group">
-              <label for="email" hidden>Email</label>
-              <input id="email" type="email" placeholder="Email Address" name="email" required>
-            </div>
-          </form>
-
-          <div class="form-group">
-            <label for="message" hidden>Message</label>
-            <textarea id="message" name="message" placeholder="Enter text here" maxlength="500" required></textarea>
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="form-text">
+            <p>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
           </div>
+        </div>
+        <div class="col-sm-8">
+          <div class="form-container">
 
-          <button type="submit" class="btn btn-default">Get in touch</button>
+            <form action="/action_page.php">
+              <form class="form-inline" action="/action_page.php"></form>
+                <div class="form-group">
+                  <label for="firstname" hidden>First Name</label>
+                  <input id="firstname" type="text" placeholder="First Name" name="firstname" maxlength="30" required>
+                  <label for="lastname" hidden>Last Name</label>
+                  <input id="lastname" type="text" placeholder="Last Name" name="lastname" maxlength="30" required>
+                </div>
+    
+                <div class="form-group">
+                  <label for="email" hidden>Email</label>
+                  <input id="email" type="email" placeholder="Email Address" name="email" required>
+                </div>
+              </form>
+    
+              <div class="form-group">
+                <label for="message" hidden>Message</label>
+                <textarea id="message" name="message" placeholder="Enter text here" maxlength="500" required></textarea>
+              </div>
+    
+              <button type="submit" class="btn btn-default">Get in touch</button>
+          </div>
+        </div>
       </div>
 
       <footer>

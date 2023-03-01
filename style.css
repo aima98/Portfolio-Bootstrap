@@ -1,5 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
 
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 0;
+  gap: 48px;
+  position: absolute;
+  width: 1171px;
+  height: 808px;
+  left: 83px;
+  top: 2385px;
+}
+
 .about_me {
   background: url("./assets/images/illustration\ about\ me\ desktop.svg') no-repeat 10px");
   background-position: top -30px right, bottom left;
@@ -72,4 +85,73 @@
   line-height: 16px;
   letter-spacing: 0.03em;
   color: #36b37e;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 80px 0;
+  gap: 24px;
+  position: absolute;
+  width: 1171px;
+  height: 490px;
+  left: 135px;
+  top: 3139px;
+}
+
+.form-text {
+  width: 463px;
+  height: 256px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+}
+
+.form-container {
+  padding: 0;
+  gap: 24px;
+  width: 684px;
+  height: 330px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input,
+textarea {
+  padding-inline-start: 1em;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  font-style: normal;
+  background: #fff;
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
+}
+
+input {
+  padding-block: 1em;
+  color: #6b778c;
+  height: 48px;
+}
+
+textarea {
+  padding-block-start: 1em;
+  font-style: normal;
+  color: #091e42;
+  background: #fff;
+  border: 1px solid #60c095;
+  border-radius: 4px;
+  width: 684px;
+  height: 114px;
 }
