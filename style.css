@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+body {
+  overflow-x: hidden;
+}
+
+/* Ani7 */
+.containers {
+  background-image: url("assets/images/Header-llustration-desktop@2x.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 97.17vw 103.36vh;
+}
+
+.nav-link {
+  color: #172b4d;
+}
+
+.h-main-header {
+  font-family: sans-serif, "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: 0.37px;
+  color: #172b4d;
+}
+
+.header-sec {
+  padding-top: 25.2vh;
+  padding-left: 18vw;
+  padding-right: 18vw;
+  padding-bottom: 36.5vh;
+}
+
+.arrow-down {
+  margin-top: 84px;
+}
+
+.green {
+  color: #36b37f;
+}
+
+/* for the works */
+.card-container {
+  padding-left: 6vw;
+  margin-left: 10vw;
+  margin-right: initial;
+  margin-top: 52px;
+}
+
+.card-image {
+  max-height: 252px;
+}
+
+.fonts {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+.works-h2 {
+  font-family: sans-serif, "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+}
+
+.w-card-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #172b4d;
+}
+
+.card-tech {
+  font-family: sans-serif, "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #172b4d;
+  background: #ebf0ee !important;
+}
+
+/* Aima98 */
+.about {
+  background-image: url("assets/images/illustration\ about\ me\ desktop.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
+.h-header {
+  font-family: sans-serif, "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  letter-spacing: 0.37px;
+  color: #172b4d;
+  margin-top: 115px;
+  margin-left: -66px;
+}
+
+.card {
+  border: none;
+}
+
+.text-sec {
+  width: 920px;
+  height: 96px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  padding-left: 107px;
+  color: #42526e;
+}
+
+.header-sec1 {
+  padding-top: 5.2vh;
+  padding-left: 6vw;
+  padding-right: 5vw;
+  padding-bottom: 0.5vh;
+}
+
+/* for the cards */
+.card-container1 {
+  margin-left: -6vw;
+  margin-right: 0;
+  margin-top: 72px;
+  padding-left: 6vw;
+}
+
+.work-card1 {
+  background: #d0e3db;
+  width: 400px;
+  height: 352px;
+}
+
+.card-cont {
+  font-family: sans-serif, "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #36b37e;
+  background: #fff !important;
+}
+
+.w-get-resume {
+  margin-top: -300px;
+  margin-left: -17px;
+}
+
+.form-text p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 52px;
+  color: #172b4d;
+  margin-left: 52px;
+  margin-top: 220px;
+  width: 463px;
+}
+
+.form-container {
+  padding: 0;
+  width: 684px;
+  height: 330px;
+  margin-left: 102px;
+  margin-top: 177px;
+}
+
+.firstname {
+  width: 339.5px;
+  height: 48px;
+  background: #fff;
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.lastname {
+  width: 339.5px;
+  height: 48px;
+  background: #fff;
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.email {
+  width: 684px;
+  height: 48px;
+  background: #fff;
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+textarea {
+  width: 684px;
+  height: 114px;
+  background: #fff;
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
+  margin-top: 10px;
+}
